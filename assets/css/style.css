@@ -14,4 +14,41 @@ body {
 
 .heading {
     text-align: center;
+    padding: 25px;
+    margin: 25px;
 }
+
+.number-div {
+    text-align: center;
+}
+
+.num-button {
+    color: green;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.results-section {
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.results-button {
+    background-color: rgba(71, 71, 71, 0.201);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* .money-image {
+    width: auto;
+    height: 100px;
+} */
