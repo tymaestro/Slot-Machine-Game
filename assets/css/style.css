@@ -12,6 +12,11 @@ body {
     font-weight: 300;
 }
 
+.game-background {
+    background-color: #11141888;
+    border-radius: 50px;
+}
+
 .heading {
     text-align: center;
     padding: 25px;
@@ -23,7 +28,8 @@ body {
 }
 
 .num-button {
-    color: green;
+    color: white;
+    background-color: rgba(2, 2, 2, 0.8);
     font-size: 20px;
     padding: 10px;
     margin: 10px;
@@ -40,7 +46,7 @@ body {
 }
 
 .results-button {
-    background-color: rgba(71, 71, 71, 0.201);
+    background-color: rgb(255, 255, 255);
     border: 1px solid black;
     border-radius: 10px;
     font-size: 20px;
