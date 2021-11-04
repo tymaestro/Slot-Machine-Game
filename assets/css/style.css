@@ -12,10 +12,12 @@ body {
     font-weight: 300;
 }
 
-.game-background {
+/* .game-background {
     background-color: #11141888;
+    background: url(../images/money.jpg) no-repeat center center;
     border-radius: 50px;
-}
+    min-height: calc(100vh - 87px);
+} */
 
 .heading {
     text-align: center;
