@@ -9,15 +9,25 @@
 
 body {
     color: #111418;
+    background-color: rgba(189, 189, 189, 0.021);
     font-family: Open-Sans, sans-serif;
     font-weight: 300;
 }
 
+section {
+    min-height: calc(100vh - 128px);
+}
+
 footer {
     /* position: inherit; */
-    width: 50%;
+    /* width: 50%; */
     margin: auto;
+    text-align: center;
 }
+
+/* button {
+    padding: 30px;
+} */
 
 /* .game-background {
     background-color: #11141888;
@@ -36,12 +46,20 @@ footer {
     width: 50%;
     margin: auto;
     background-color: crimson;
+    border: solid black 1px;
+    border-radius: 5px;
 }
 
 .heading {
     text-align: center;
     padding: 25px;
     /* margin: 25px; */
+}
+
+#euro-sign {
+    padding: 10px;
+    color: gold;
+    font-size: 40px;
 }
 
 .number-div {
