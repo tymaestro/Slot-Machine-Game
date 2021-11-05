@@ -48,7 +48,7 @@ footer {
     margin: auto;
     background-color: crimson;
     border: solid black 1px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 h2 {
@@ -83,7 +83,7 @@ h2 {
 }
 
 i {
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .results-section {
