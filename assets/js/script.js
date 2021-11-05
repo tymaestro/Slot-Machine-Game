@@ -12,3 +12,23 @@ function change() {
     let dog = document.getElementById("dog");
     dog.style.color = "green";
 }
+
+function startGame() {
+
+}
+
+function verifyAnswer() {
+
+}
+
+function displaySlotQuestion() {
+
+}
+
+function correctScore() {
+
+}
+
+function incorrectScore() {
+    
+}
