@@ -12,4 +12,11 @@ function numbers() {
     let num4 = Math.floor(Math.random() * 3);
     let num5 = Math.floor(Math.random() * 3);
     let num6 = Math.floor(Math.random() * 3);
+
+    playerOne.innerText = num1;
+	playerTwo.innerText = num2;
+	playerThree.innerText = num3;
+	computerOne.innerText = num4;
+	computerTwo.innerText = num5;
+	computerThree.innerText = num6;
 }
