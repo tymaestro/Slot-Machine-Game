@@ -18,6 +18,12 @@ section {
     min-height: calc(100vh - 225px);
 }
 
+p {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
 footer {
     /* position: inherit; */
     /* width: 50%; */

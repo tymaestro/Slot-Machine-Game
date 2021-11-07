@@ -7,19 +7,36 @@ let computerOne = document.getElementById('computer1');
 let computerTwo = document.getElementById('computer2');
 let computerThree = document.getElementById('computer3');
 
-// Random number generator function and output to HTML
+/**
+ * Time delay function for when the player wins so that
+ * numbers can generate before alert message is shown
+ */
 
 function playerWin() {
     setTimeout(function(){alert("Congratulations! You're a winner!");}, 100);
 }
 
+/**
+ * Time delay function for when the computer wins so that
+ * numbers can generate before alert message is shown
+ */
+
 function computerWin() {
     setTimeout(function(){alert("Sorry, better luck next time!");}, 100);
 }
 
+/**
+ * Time delay function for when it's a draw so that
+ * numbers can generate before alert message is shown
+ */
+
 function draw() {
     setTimeout(function(){alert("It's a draw!");}, 100);
 }
+
+/**
+ * Main function to generate a random number for each variable
+ */
 
 function numbers() {
     let num1 = Math.floor(Math.random() * 3) + 1;
@@ -56,10 +73,6 @@ function numbers() {
         computerScore();
     }
 }
-
-// Check answer function and alert
-
-
 
 // Score section
 
