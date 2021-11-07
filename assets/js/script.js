@@ -10,15 +10,15 @@ let computerThree = document.getElementById('computer3');
 // Random number generator function and output to HTML
 
 function playerWin() {
-    setTimeout(function(){alert("Congratulations! You're a winner!");}, 200);
+    setTimeout(function(){alert("Congratulations! You're a winner!");}, 100);
 }
 
 function computerWin() {
-    setTimeout(function(){alert("Sorry, better luck next time!");}, 200);
+    setTimeout(function(){alert("Sorry, better luck next time!");}, 100);
 }
 
 function draw() {
-    setTimeout(function(){alert("It's a draw!");}, 200);
+    setTimeout(function(){alert("It's a draw!");}, 100);
 }
 
 function numbers() {
@@ -41,10 +41,12 @@ function numbers() {
 
     if (playerAnswer > computerAnswer) {
         playerWin();
+        playerScore();
     } else if (playerAnswer === computerAnswer) {
         draw();
     } else {
         computerWin();
+        computerScore();
     }
 }
 
@@ -53,3 +55,13 @@ function numbers() {
 
 
 // Score section
+
+function playerScore() {
+    let playerScore = parseInt(document.getElementById("player-score").innerText);
+    document.getElementById("score").innerText = ++playerScore;
+}
+
+function computerScore() {
+    let computerScore = parseInt(document.getElementById("computer-score").innerText);
+    document.getElementById("player-score").innerText = ++computerScore;
+}
