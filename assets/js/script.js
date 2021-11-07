@@ -39,6 +39,8 @@ function numbers() {
 	computerTwo.innerText = num5;
 	computerThree.innerText = num6;
 
+    // num1 = playerOne.innerHTML;
+
     if (playerAnswer > computerAnswer) {
         playerWin();
         playerScore();
@@ -58,10 +60,10 @@ function numbers() {
 
 function playerScore() {
     let playerScore = parseInt(document.getElementById("player-score").innerText);
-    document.getElementById("score").innerText = ++playerScore;
+    document.getElementById("player-score").innerText = ++playerScore;
 }
 
 function computerScore() {
     let computerScore = parseInt(document.getElementById("computer-score").innerText);
-    document.getElementById("player-score").innerText = ++computerScore;
+    document.getElementById("computer-score").innerText = ++computerScore;
 }
