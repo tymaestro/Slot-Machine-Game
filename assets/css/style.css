@@ -25,8 +25,6 @@ p {
 }
 
 footer {
-    /* position: inherit; */
-    /* width: 50%; */
     margin: auto;
     text-align: center;
 }
@@ -35,17 +33,6 @@ footer {
     padding: 25px;
     text-align: center;
 }
-
-/* button {
-    padding: 30px;
-} */
-
-/* .game-background {
-    background-color: #11141888;
-    background: url(../images/money.jpg) no-repeat center center;
-    border-radius: 50px;
-    min-height: calc(100vh - 87px);
-} */
 
 .game-background {
     color: #111418;
@@ -76,12 +63,6 @@ h2 {
 footer {
     margin: 30px;
 }
-
-/* #euro-sign {
-    padding: 10px;
-    color: gold;
-    font-size: 40px;
-} */
 
 .player-div, .computer-div {
     text-align: center;
@@ -129,11 +110,6 @@ i {
 span {
     padding: 15px;
 }
-
-/* .money-image {
-    width: auto;
-    height: 100px;
-} */
 
 @media screen and (max-width: 904px) {
 

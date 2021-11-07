@@ -7,6 +7,8 @@ let computerOne = document.getElementById('computer1');
 let computerTwo = document.getElementById('computer2');
 let computerThree = document.getElementById('computer3');
 
+// let buttons = document.getElementsByClassName('num-button');
+
 /**
  * Time delay function for when the player wins so that
  * numbers can generate before alert message is shown
