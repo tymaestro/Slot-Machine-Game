@@ -29,6 +29,11 @@ function numbers() {
     let num5 = Math.floor(Math.random() * 3) + 1;
     let num6 = Math.floor(Math.random() * 3) + 1;
 
+    // let num1, num2, num3, num4, num5, num6
+    // for (let i = 0; i < 7; i++) {
+    //     num[i] = Math.floor(Math.random() * 3) + 1;
+    // }
+
     let playerAnswer = num1 + num2 + num3;
     let computerAnswer = num4 + num5 + num6;
 
