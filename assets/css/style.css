@@ -127,11 +127,12 @@ span {
     }
 }
 
-@media screen and (max-width: 846px) {
-    
+@media screen and (max-width: 864px) {
+
     .game-background {
         width: auto;
-        margin: auto;
+        margin: 10px;
+        padding-bottom: 10px;
     }
 }
 
@@ -159,8 +160,21 @@ span {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 520px) {
+    span {
+        padding: 0px;
+    }
+
+}
+
+@media screen and (max-width: 421px) {
     .heading {
         font-size: 30px;
     }
+
+    i {
+        font-size: 25px;
+    }
+
+
 }
