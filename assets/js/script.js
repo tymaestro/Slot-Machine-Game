@@ -9,6 +9,18 @@ let computerThree = document.getElementById('computer3');
 
 // Random number generator function and output to HTML
 
+function playerWin() {
+    setTimeout(function(){alert("Congratulations! You're a winner!");}, 200);
+}
+
+function computerWin() {
+    setTimeout(function(){alert("Sorry, better luck next time!");}, 200);
+}
+
+function draw() {
+    setTimeout(function(){alert("It's a draw!");}, 200);
+}
+
 function numbers() {
     let num1 = Math.floor(Math.random() * 3) + 1;
     let num2 = Math.floor(Math.random() * 3) + 1;
@@ -28,12 +40,11 @@ function numbers() {
 	computerThree.innerText = num6;
 
     if (playerAnswer > computerAnswer) {
-        alert("Congratulations! You're a winner!");
+        playerWin();
     } else if (playerAnswer === computerAnswer) {
-        alert("It's a draw!")
-    }
-        else {
-        alert("Sorry, better luck next time!");
+        draw();
+    } else {
+        computerWin();
     }
 }
 
