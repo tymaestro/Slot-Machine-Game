@@ -22,6 +22,10 @@ p {
     text-align: center;
     font-size: 25px;
     padding: 10px;
+    margin: 0px 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
 }
 
 footer {
@@ -40,7 +44,6 @@ footer {
     font-weight: 300;
     border: none;
     padding: 0;
-    box-sizing: border-box;
     height: 600px;
     width: 50%;
     margin: auto;
@@ -124,6 +127,14 @@ span {
     }
 }
 
+@media screen and (max-width: 846px) {
+    
+    .game-background {
+        width: auto;
+        margin: auto;
+    }
+}
+
 @media screen and (max-width: 600px) {
 
     .game-background {
@@ -132,12 +143,24 @@ span {
         font-weight: 300;
         border: none;
         padding: 0;
-        box-sizing: border-box;
         height: 600px;
         width: auto;
         margin: auto;
         background-color: crimson;
         border: solid black 1px;
         border-radius: 5px;
+    }
+
+    .span {
+        padding: 0;
+        width: auto;
+        margin: auto;
+        column-count: auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .heading {
+        font-size: 30px;
     }
 }
