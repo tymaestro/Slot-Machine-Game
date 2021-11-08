@@ -109,8 +109,18 @@ For screen sizes of 421px and lower I have reduced the font size of the main hea
 
 ### Cross Browser Testing
 
+This project has been tested on the Google Chrome browser, Safari browser, and the DuckDuckGo browser and is fully functional on both desktop and mobile versions.
+
 ## Deployment
 
 ## Credits
 
+Fonts used were Open-Sans and Roboto and were taken from [Google Fonts](https://fonts.google.com/).
+
+Font icons were used throughout the webpage and have been taken from [Font Awesome](https://fontawesome.com/).
+
+Favicon icon for use in the tab bar was taken from [Favicon](https://favicon.io/)
+
 ## Acknowledgements
+
+Thank you to my mentor who gave me very helpful feedback and was ver encouraging during our mentor sessions.
