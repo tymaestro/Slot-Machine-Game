@@ -15,30 +15,51 @@ The main heading gives users an insight into this game. The In It To Win It head
 
 <img src="./assets/images/main-heading.png">
 <br>
+<br>
 
 ### Game Instructions
 
 The game instructions section explains clearly and concisely how to play the game. It states that the game is easy to understand and accessible to all.
 
 <img src="./assets/images/game-instructions.png">
+<br>
+<br>
 
 ### Animal Values
 
 The animal values section informs the user of the value of each animal in the game. This is an expansion of the introduction and rules section and makes sure that the user has all information needed to play and understand the game.
 
 <img src="./assets/images/animal-values.png">
+<br>
+<br>
 
 ### Main Game Section
 
 This is the main section of the webpage where users will play the game in a player vs computer scenario. This is where they encounter JavaScript through the use of the "Generate Numbers!" button. This is a visually appealing section and the use of symbols instead of numbers lends to the engagement of a younger audience as well as for older audiences. Once the "Generate Numbers!" button is clicked, the numbers function is called in JavaScript to generate the random numbers. These numbers are then calculated and converted back into animals in HTML.
 
 <img src="./assets/images/main-game-section.png">
+<br>
+<br>
 
 ### Alerts and Score Incrementation
 
 Furthermore, an alert tells the user if they have won, drawn, or lost and increments the score at the bottom of this section depending on the result.
 
+<img src="./assets/images/win.png">
+<br>
+<br>
 
+<img src="./assets/images/draw.png">
+<br>
+<br>
+
+<img src="./assets/images/loss.png">
+<br>
+<br>
+
+<img src="./assets/images/increment-score.png">
+<br>
+<br>
 
 
 ### Features Left To Implement
@@ -63,7 +84,13 @@ This game has many responsive features for several different screen sizes.
 
 In the main game section, the animal symbols are responsive for screens of 914px and lower. They have less padding and a smaller margin.
 
-The central game background is responsive for screens 864px and lower. I have given it a width of 'auto' and altered the padding and margin
+The central game background is responsive for screens 864px and lower. I have given it a width of 'auto' and altered the padding and margin.
+
+The animals in the main game section are responsive for screens of 600px and lower. I have adjusted their padding, width, and margin.
+
+I removed the padding on span elements for screens of 520px and lower.
+
+For screen sizes of 421px and lower I have reduced the font size of the main heading and the i elements.
 
 ### Feature Function
 
