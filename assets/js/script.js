@@ -49,19 +49,19 @@ function numbers() {
     // let num6 = Math.floor(Math.random() * 3) + 1;
 
     let nums = [];
-    for (let i = 0; i < 7; i++) {
+    for (let i = 0; i < 6; i++) {
         nums[i] = Math.floor(Math.random() * 3) + 1;
     }
 
     let playerAnswer = nums[0] + nums[1] + nums[2];
     let computerAnswer = nums[3] + nums[4] + nums[5];
 
-    playerOne.innerText = nums[0];
-	playerTwo.innerText = nums[1];
-	playerThree.innerText = nums[2];
-	computerOne.innerText = nums[3];
-	computerTwo.innerText = nums[4];
-	computerThree.innerText = nums[5];
+    // playerOne.innerText = nums[0];
+	// playerTwo.innerText = nums[1];
+	// playerThree.innerText = nums[2];
+	// computerOne.innerText = nums[3];
+	// computerTwo.innerText = nums[4];
+	// computerThree.innerText = nums[5];
 
     if (playerAnswer > computerAnswer) {
         playerWin();
@@ -71,6 +71,34 @@ function numbers() {
     } else {
         computerWin();
         computerScore();
+    }
+
+    playerOne.innerText = nums[0];
+	playerTwo.innerText = nums[1];
+	playerThree.innerText = nums[2];
+	computerOne.innerText = nums[3];
+	computerTwo.innerText = nums[4];
+	computerThree.innerText = nums[5];
+
+    let chars = [];
+
+    for (let i = 0; i < 6; i++) {
+        chars[i] = replaceFunctions(nums[i]);
+    }
+    console.log(chars);
+}
+
+function replaceFunctions(num) {
+    switch (num) {
+        case 1:
+            // return '<i class="fas fa-cat"></i>';
+            // return '\uf6d3';
+        case 2:
+            // return '<i class="fas fa-dog"></i>';
+            // return 'uf6be';
+        case 3:
+            // return '<i class="fas fa-dragon"></i>';
+            // return 'uf6d5';
     }
 }
 
