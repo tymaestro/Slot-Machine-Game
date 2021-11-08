@@ -65,6 +65,9 @@ h2 {
 
 #error-page {
     height: 100vh;
+}
+
+.error-container {
     display: flex;
     align-items: center;
     justify-content: center;
