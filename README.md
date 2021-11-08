@@ -19,7 +19,7 @@ I have used a Favicon logo to display in the title bar. This adds more authentic
 
 ### Main heading
 
-The main heading gives users an insight into this game. The In It To Win It heading flanked by two euro symbols (favicons) suggests to the user that they have the possibility of winning a prize.
+The main heading which is inside a header to ensure good semantic HTML gives users an insight into this game. The In It To Win It heading flanked by two euro symbols (favicons) suggests to the user that they have the possibility of winning a prize.
 
 <img src="./assets/images/main-heading.png">
 <br>
@@ -68,6 +68,12 @@ Furthermore, an alert tells the user if they have won, drawn, or lost and increm
 <img src="./assets/images/increment-score.png">
 <br>
 <br>
+
+### Footer
+
+There is a footer to ensure good semantic HTML with a nice message about this game.
+
+<img src="./assets/images/footer.png">
 
 ### 404-Page Not Found
 
