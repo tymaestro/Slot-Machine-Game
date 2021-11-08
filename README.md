@@ -83,7 +83,7 @@ I have included a 404 error page so that the user can find their way back to the
 
 ### Features Left To Implement
 
-Add an endgame function so that there is a set number of points available before the games ends. e.g. First to reach 10 points wins and ends the game.
+Add an endgame function so that there is a set number of points available before the game ends. e.g. First to reach 10 points wins and ends the game.
 
 ## Testing
 <br>
@@ -137,4 +137,4 @@ Time delay function learned from [W3Schools](https://www.w3schools.com/js/js_tim
 
 ## Acknowledgements
 
-Thank you to my mentor who gave me very helpful feedback and was ver encouraging during our mentor sessions.
+Thank you to my mentor who gave me very helpful feedback and was very encouraging during our mentor sessions.
