@@ -77,16 +77,21 @@ footer {
     margin: 30px;
 }
 
-.player-div, .computer-div {
+.player-div {
     text-align: center;
     padding-top: 55px;
+}
+
+.computer-div {
+    text-align: center;
+    padding-top: 40px;
 }
 
 .num-button {
     color: white;
     background-color: rgba(2, 2, 2, 0.8);
     font-size: 20px;
-    padding: 20px;
+    padding: 10px;
     margin: 30px;
     border: 1px solid black;
     border-radius: 10px;
@@ -124,14 +129,14 @@ span {
     padding: 15px;
 }
 
-@media screen and (max-width: 904px) {
+@media screen and (max-width: 914px) {
 
     .num-button {
         color: white;
         background-color: rgba(2, 2, 2, 0.8);
         font-size: 20px;
-        padding: 3%;
-        margin: 4%;
+        padding: 5px;
+        margin: 5px;
         border: 1px solid black;
         border-radius: 10px;
     }
