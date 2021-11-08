@@ -63,6 +63,13 @@ h2 {
     /* margin: 25px; */
 }
 
+#error-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 footer {
     margin: 30px;
 }
