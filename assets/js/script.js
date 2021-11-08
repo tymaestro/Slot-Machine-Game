@@ -104,6 +104,8 @@ function numbers() {
 
 // Score section
 
+// Increment score follows the same method as the Love Maths project
+
 function playerScore() {
     let playerScore = parseInt(document.getElementById("player-score").innerText);
     document.getElementById("player-score").innerText = ++playerScore;
