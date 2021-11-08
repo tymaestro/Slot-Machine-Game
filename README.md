@@ -44,11 +44,20 @@ Add an endgame function so that there is a set number of points available before
 
 ### Technologies
 
+HTML5, CSS3, JavaScript
+<br>
+
 ### Validator Testing
 
 ### Google Lighthouse Testing
 
 ### Responsivity
+
+This game has many responsive features for several different screen sizes.
+
+In the main game section, the animal symbols are responsive for screens of 914px and lower. They have less padding and a smaller margin.
+
+The central game background is responsive for screens 864px and lower. I have given it a width of 'auto' and altered the padding and margin
 
 ### Feature Function
 

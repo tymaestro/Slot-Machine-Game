@@ -33,7 +33,7 @@ footer {
     text-align: center;
 }
 
-.span {
+.animals {
     padding: 25px;
     text-align: center;
 }
@@ -167,11 +167,10 @@ span {
         border-radius: 5px;
     }
 
-    .span {
+    .animals {
         padding: 0;
         width: auto;
         margin: auto;
-        column-count: auto;
     }
 }
 
