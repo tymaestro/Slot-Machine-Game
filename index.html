@@ -33,18 +33,18 @@
             <div class="game-section">
                 <div class="player-div">
                     <h2>Player</h2>
-                    <button class="num-button"><i class="fas fa-dog"></i></button>
-                    <button class="num-button"><i class="fas fa-dragon"></i></button>
-                    <button class="num-button"><i class="fas fa-cat"></i></button>
+                    <button class="num-button"><i class="fas fa-dog" id="player1"></i></button>
+                    <button class="num-button"><i class="fas fa-dragon" id="player2"></i></button>
+                    <button class="num-button"><i class="fas fa-cat" id="player3"></i></button>
                     <!-- <button class="num-button" id="player1">1</button>
                     <button class="num-button" id="player2">2</button>
                     <button class="num-button" id="player3">3</button> -->
                 </div>
                 <div class="computer-div">
                     <h2>Computer</h2>
-                    <button class="num-button"><i class="fas fa-dog"></i></button>
-                    <button class="num-button"><i class="fas fa-dragon"></i></button>
-                    <button class="num-button"><i class="fas fa-cat"></i></button>
+                    <button class="num-button"><i class="fas fa-dog" id="computer1"></i></button>
+                    <button class="num-button"><i class="fas fa-dragon" id="computer2"></i></button>
+                    <button class="num-button"><i class="fas fa-cat" id="computer3"></i></button>
                     <!-- <button class="num-button" id="computer1">1</button>
                     <button class="num-button" id="computer2">2</button>
                     <button class="num-button" id="computer3">3</button> -->
@@ -54,13 +54,12 @@
                 <button class="results-button" onclick=numbers()>Generate Numbers!</button>
             </div>
             <div class="score-section">
-                <span>Player Score: <span id="player-score">0</span>
-                <span>Computer Score: <span id="computer-score">0</span>
+                <span>Player Score:<span id="player-score">0</span>
+                <span>Computer Score:<span id="computer-score">0</span>
             </div>
         </div>
     </section>
-    <!-- Remove 404 test before deployment!!!! -->
-    <footer>This game is for educational purposes<a href="404.html">404 test</a></footer>
+    <footer>This game is for educational purposes</footer>
     <script src="assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
 </body>

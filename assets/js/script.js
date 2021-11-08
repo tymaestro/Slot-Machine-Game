@@ -7,8 +7,6 @@ let computerOne = document.getElementById('computer1');
 let computerTwo = document.getElementById('computer2');
 let computerThree = document.getElementById('computer3');
 
-// let buttons = document.getElementsByClassName('num-button');
-
 /**
  * Time delay function for when the player wins so that
  * numbers can generate before alert message is shown
@@ -37,17 +35,12 @@ function draw() {
 }
 
 /**
- * Main function to generate a random number for each variable
+ * Main function to generate a random number for each variable using a for loop.
+ * if/else statement used to compare results between player and computer.
  */
 
 function numbers() {
-    // let num1 = Math.floor(Math.random() * 3) + 1;
-    // let num2 = Math.floor(Math.random() * 3) + 1;
-    // let num3 = Math.floor(Math.random() * 3) + 1;
-    // let num4 = Math.floor(Math.random() * 3) + 1;
-    // let num5 = Math.floor(Math.random() * 3) + 1;
-    // let num6 = Math.floor(Math.random() * 3) + 1;
-
+    
     let nums = [];
     for (let i = 0; i < 6; i++) {
         nums[i] = Math.floor(Math.random() * 3) + 1;
@@ -55,13 +48,6 @@ function numbers() {
 
     let playerAnswer = nums[0] + nums[1] + nums[2];
     let computerAnswer = nums[3] + nums[4] + nums[5];
-
-    // playerOne.innerText = nums[0];
-	// playerTwo.innerText = nums[1];
-	// playerThree.innerText = nums[2];
-	// computerOne.innerText = nums[3];
-	// computerTwo.innerText = nums[4];
-	// computerThree.innerText = nums[5];
 
     if (playerAnswer > computerAnswer) {
         playerWin();
@@ -79,6 +65,10 @@ function numbers() {
 	computerOne.innerText = nums[3];
 	computerTwo.innerText = nums[4];
 	computerThree.innerText = nums[5];
+
+    // if (playerOne > computerOne) {
+    //     playerOne.classList.add('fa fas-cat');
+    // }
 
     // let chars = [];
 

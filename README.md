@@ -89,6 +89,12 @@ HTML5, CSS3, JavaScript
 
 ### Validator Testing
 
+HTML: No errors were returned when passing through the official W3C validator.
+
+CSS: No errors were returned when passing through the official (Jigsaw) validator.
+
+JavaScript: No errors were returned when passing through the official JSHint validator.
+
 ### Google Lighthouse Testing
 
 ### Responsivity
@@ -120,6 +126,8 @@ Fonts used were Open-Sans and Roboto and were taken from [Google Fonts](https://
 Font icons were used throughout the webpage and have been taken from [Font Awesome](https://fontawesome.com/).
 
 Favicon icon for use in the tab bar was taken from [Favicon](https://favicon.io/)
+
+Time delay function learned from [W3Schools](https://www.w3schools.com/js/js_timing.asp);
 
 ## Acknowledgements
 
