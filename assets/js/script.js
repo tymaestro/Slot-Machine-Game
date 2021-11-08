@@ -41,29 +41,27 @@ function draw() {
  */
 
 function numbers() {
-    let num1 = Math.floor(Math.random() * 3) + 1;
-    let num2 = Math.floor(Math.random() * 3) + 1;
-    let num3 = Math.floor(Math.random() * 3) + 1;
-    let num4 = Math.floor(Math.random() * 3) + 1;
-    let num5 = Math.floor(Math.random() * 3) + 1;
-    let num6 = Math.floor(Math.random() * 3) + 1;
+    // let num1 = Math.floor(Math.random() * 3) + 1;
+    // let num2 = Math.floor(Math.random() * 3) + 1;
+    // let num3 = Math.floor(Math.random() * 3) + 1;
+    // let num4 = Math.floor(Math.random() * 3) + 1;
+    // let num5 = Math.floor(Math.random() * 3) + 1;
+    // let num6 = Math.floor(Math.random() * 3) + 1;
 
-    // let num1, num2, num3, num4, num5, num6
-    // for (let i = 0; i < 7; i++) {
-    //     num[i] = Math.floor(Math.random() * 3) + 1;
-    // }
+    let nums = [];
+    for (let i = 0; i < 7; i++) {
+        nums[i] = Math.floor(Math.random() * 3) + 1;
+    }
 
-    let playerAnswer = num1 + num2 + num3;
-    let computerAnswer = num4 + num5 + num6;
+    let playerAnswer = nums[0] + nums[1] + nums[2];
+    let computerAnswer = nums[3] + nums[4] + nums[5];
 
-    playerOne.innerText = num1;
-	playerTwo.innerText = num2;
-	playerThree.innerText = num3;
-	computerOne.innerText = num4;
-	computerTwo.innerText = num5;
-	computerThree.innerText = num6;
-
-    // num1 = playerOne.innerHTML;
+    playerOne.innerText = nums[0];
+	playerTwo.innerText = nums[1];
+	playerThree.innerText = nums[2];
+	computerOne.innerText = nums[3];
+	computerTwo.innerText = nums[4];
+	computerThree.innerText = nums[5];
 
     if (playerAnswer > computerAnswer) {
         playerWin();

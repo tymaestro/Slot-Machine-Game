@@ -8,6 +8,14 @@ In It To Win It! is an online player vs computer game that aims to provide some 
 ## Features
 <br>
 
+### Main heading
+
+The main heading gives users an insight into this game. The In It To Win It heading flanked by two euro symbols (favicons) suggests to the user that they have the possibility of winning a prize.
+
+### Game Instructions
+
+The game instructions section explains clearly and concisely how to play the game. It states that the game is easy to understand and accessible to all.
+
 ## Testing
 <br>
 
