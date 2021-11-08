@@ -9,6 +9,14 @@ In It To Win It! is an online player vs computer game that aims to provide some 
 ## Features
 <br>
 
+### Favicon
+
+I have used a Favicon logo to display in the title bar. This adds more authenticity to this webpage and it is an easily recognisable logo if you have several tabs open and need to find your way back to this game.
+
+<img src="./assets/images/favicon-head.png">
+<br>
+<br>
+
 ### Main heading
 
 The main heading gives users an insight into this game. The In It To Win It heading flanked by two euro symbols (favicons) suggests to the user that they have the possibility of winning a prize.
@@ -61,6 +69,11 @@ Furthermore, an alert tells the user if they have won, drawn, or lost and increm
 <br>
 <br>
 
+### 404-Page Not Found
+
+I have included a 404 error page so that the user can find their way back to the game if their request cannot be found. Clicking the hyperlink "Continue Playing!" will direct them back to the game without the need to click the back button.
+
+<img src="./assets/images/error-page.png">
 
 ### Features Left To Implement
 
