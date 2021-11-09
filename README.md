@@ -177,16 +177,20 @@ This project has been tested on the Google Chrome browser, Safari browser, and t
 
 The site was deployed to Github Pages through the following steps:
 <br>
+<br>
 In the Github repository marked "lotto-game", select the settings tab to the upper right of the main content
+<br>
 <br>
 Once there, scroll down and select the Pages tab on the left of the screen
 <br>
+<br>
 Then, you must select the main branch from underneath the Source heading and make sure to save
+<br>
 <br>
 At the point of saving, the repository will be deployed, published and will be shown as active in Github Pages. The repository may take several minutes to be fully published
 <br>
 <br>
-The live link can be found here - 
+The live link can be found here - (https://tymaestro.github.io/lotto-game/)
 
 ## Credits
 
