@@ -96,8 +96,19 @@ HTML5, CSS3, JavaScript
 ### Validator Testing
 
 HTML: No errors were returned when passing through the official W3C validator.
+<br>
+<img src="./assets/images/html-validator.png">
+<br>
+<br>
+<img src="./assets/images/error-page-validator.png">
+<br>
+<br>
 
 CSS: No errors were returned when passing through the official (Jigsaw) validator.
+<br>
+<img src="./assets/images/css-validator.png">
+<br>
+<br>
 
 JavaScript: No errors were returned when passing through the official JSHint validator.
 
