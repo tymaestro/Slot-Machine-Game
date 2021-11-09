@@ -107,7 +107,7 @@ JavaScript: No errors were returned when passing through the official JSHint val
 
 This game has many responsive features for several different screen sizes.
 
-In the main game section, the animal symbols are responsive for screens of 923px and lower. They have less padding and a smaller margin.
+In the main game section, the animal symbols are responsive for screens of 935px and lower. They have less padding and a smaller margin.
 
 The central game background is responsive for screens 864px and lower. I have given it a width of 'auto' and altered the padding and margin.
 
