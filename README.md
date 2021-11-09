@@ -190,7 +190,7 @@ Then, you must select the main branch from underneath the Source heading and mak
 At the point of saving, the repository will be deployed, published and will be shown as active in Github Pages. The repository may take several minutes to be fully published
 <br>
 <br>
-The live link can be found here - (https://tymaestro.github.io/lotto-game/)
+The live link can be found here - https://tymaestro.github.io/lotto-game/
 
 ## Credits
 
