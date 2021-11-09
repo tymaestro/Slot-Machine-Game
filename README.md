@@ -194,6 +194,8 @@ Favicon icon for use in the tab bar was taken from [Favicon](https://favicon.io/
 
 Time delay function learned from [W3Schools](https://www.w3schools.com/js/js_timing.asp).
 
+Testing was done using [Python Tutor](https://pythontutor.com/visualize.html#mode=edit).
+
 ## Acknowledgements
 
 Thank you to my mentor who gave me very helpful feedback and was very encouraging during our mentor sessions.
