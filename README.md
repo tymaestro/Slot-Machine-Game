@@ -97,9 +97,13 @@ HTML5, CSS3, JavaScript
 
 HTML: No errors were returned when passing through the official W3C validator.
 <br>
+
+### Index HTML Validation
 <img src="./assets/images/html-validator.png">
 <br>
 <br>
+
+### Error Page Validation
 <img src="./assets/images/error-page-validator.png">
 <br>
 <br>
