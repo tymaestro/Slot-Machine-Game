@@ -115,6 +115,10 @@ CSS: No errors were returned when passing through the official (Jigsaw) validato
 <br>
 
 JavaScript: No errors were returned when passing through the official JSHint validator.
+<br>
+<img src="./assets/images/js-validator.png">
+<br>
+<br>
 
 ### Google Lighthouse Testing
 
@@ -148,6 +152,8 @@ I removed the padding on span elements for screens of 520px and lower.
 For screen sizes of 421px and lower I have reduced the font size of the main heading and the i elements.
 
 ### Feature Function
+
+
 
 ### Cross Browser Testing
 
