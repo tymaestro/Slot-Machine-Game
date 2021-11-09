@@ -156,7 +156,16 @@ For screen sizes of 421px and lower I have reduced the font size of the main hea
 
 ### Feature Function
 
+All features have been thoroughly tested using my Github Pages link to ensure that the functionality of my webpage is not limited to my local Gitpod server.
+<br>
+<br>
+All functions within my JavaScript file have been tested throughout this project using console.log() and PythonTutor (JavaScript section)to ensure that each function executed as intended.
+<br>
+<br>
 
+<br>
+<br>
+With practice, I look forward to becoming more familiar with testing extensions such as Jasmine so that I can use this tool with confidence in my future milestone projects.
 
 ### Cross Browser Testing
 
