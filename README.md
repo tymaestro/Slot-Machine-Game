@@ -116,7 +116,7 @@ CSS: No errors were returned when passing through the official (Jigsaw) validato
 
 JavaScript: No errors were returned when passing through the official JSHint validator.
 
-Numbers function is called with an onclick attribute in HTML
+Where it is marked that there is an unused function on line 33 (numbers function), this function is called with an onclick attribute in HTML.
 <hr>
 <br>
 <img src="./assets/images/js-validator.png">
