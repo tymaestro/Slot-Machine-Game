@@ -189,10 +189,14 @@ footer {
 @media screen and (max-width: 421px) {
     .heading {
         font-size: 30px;
+        padding: 0px;
+        margin-top: 10px;
     }
 
     i {
         font-size: 25px;
+        padding: 0px;
+        margin-bottom: 5px;
     }
 
 
