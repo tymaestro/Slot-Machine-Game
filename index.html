@@ -34,19 +34,31 @@
                 against the mighty computer. The rules are simple, you have three animals with different values and your
                 goal is to get a higher combined total than the computer. I wish you the best of luck!</p>
         </div>
+
+<!-- Animal values section -->
+
         <div class="animals">
             <span>1 point =<i class="fas fa-cat"></i></span>
             <span>2 points =<i class="fas fa-dog"></i></span>
             <span>3 points =<i class="fas fa-dragon"></i></span>
         </div>
+
+<!-- Game background -->
+
         <div class="game-background">
             <div class="game-section">
+
+<!-- Player section of game -->
+
                 <div class="player-div">
                     <h2>Player</h2>
                     <span class="num-button"><i class="icon fas fa-dog" id="player1"></i></span>
                     <span class="num-button"><i class="icon fas fa-dragon" id="player2"></i></span>
                     <span class="num-button"><i class="icon fas fa-cat" id="player3"></i></span>
                 </div>
+
+<!-- Computer section of game -->
+
                 <div class="computer-div">
                     <h2>Computer</h2>
                     <span class="num-button"><i class="icon fas fa-dog" id="computer1"></i></span>
@@ -54,9 +66,15 @@
                     <span class="num-button"><i class="icon fas fa-cat" id="computer3"></i></span>
                 </div>
             </div>
+
+<!-- Generate numbers button section -->
+
             <div class="results-section">
                 <button class="results-button" onclick=numbers()>Generate Numbers!</button>
             </div>
+
+<!-- Score section -->
+
             <div class="score-section">
                 <span>Player Score:</span>
                 <span id="player-score">0</span>
