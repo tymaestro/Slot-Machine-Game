@@ -4,7 +4,7 @@
 In It To Win It! is an online player vs computer game that aims to provide some fun and excitement through the element of chance. The player can generate random animal icons that each have a specific value. The aim of the game is to have a combined higher value than the computer. If so, you're a winner!
 <br>
 <br>
-<img src="./assets/images/multi-device.png">
+<img src="./readme-images/multi-device.png">
 
 ## Features
 <br>
@@ -13,7 +13,7 @@ In It To Win It! is an online player vs computer game that aims to provide some 
 
 I have used a Favicon logo to display in the title bar. This adds more authenticity to this webpage and it is an easily recognisable logo if you have several tabs open and need to find your way back to this game.
 
-<img src="./assets/images/favicon-head.png">
+<img src="./readme-images/favicon-head.png">
 <br>
 <br>
 
@@ -21,7 +21,7 @@ I have used a Favicon logo to display in the title bar. This adds more authentic
 
 The main heading which is inside a header to ensure good semantic HTML gives users an insight into this game. The In It To Win It heading flanked by two euro symbols (favicons) suggests to the user that they have the possibility of winning a prize.
 
-<img src="./assets/images/main-heading.png">
+<img src="./readme-images/main-heading.png">
 <br>
 <br>
 
@@ -29,7 +29,7 @@ The main heading which is inside a header to ensure good semantic HTML gives use
 
 The game instructions section explains clearly and concisely how to play the game. It states that the game is easy to understand and accessible to all.
 
-<img src="./assets/images/game-instructions.png">
+<img src="./readme-images/game-instructions.png">
 <br>
 <br>
 
@@ -37,7 +37,7 @@ The game instructions section explains clearly and concisely how to play the gam
 
 The animal values section informs the user of the value of each animal in the game. This is an expansion of the introduction and rules section and makes sure that the user has all information needed to play and understand the game.
 
-<img src="./assets/images/animal-values.png">
+<img src="./readme-images/animal-values.png">
 <br>
 <br>
 
@@ -45,7 +45,7 @@ The animal values section informs the user of the value of each animal in the ga
 
 This is the main section of the webpage where users will play the game in a player vs computer scenario. This is where they encounter JavaScript through the use of the "Generate Numbers!" button. This is a visually appealing section and the use of symbols instead of numbers lends itself to the engagement of a younger audience as well as for older audiences. Once the "Generate Numbers!" button is clicked, the numbers function is called in JavaScript to generate the random numbers. These numbers are then calculated and converted back into animals in HTML.
 
-<img src="./assets/images/main-game-section.png">
+<img src="./readme-images/main-game-section.png">
 <br>
 <br>
 
@@ -53,19 +53,19 @@ This is the main section of the webpage where users will play the game in a play
 
 Furthermore, an alert tells the user if they have won, drawn, or lost and increments the score at the bottom of this section depending on the result.
 
-<img src="./assets/images/win.png">
+<img src="./readme-images/win.png">
 <br>
 <br>
 
-<img src="./assets/images/draw.png">
+<img src="./readme-images/draw.png">
 <br>
 <br>
 
-<img src="./assets/images/loss.png">
+<img src="./readme-images/loss.png">
 <br>
 <br>
 
-<img src="./assets/images/increment-score.png">
+<img src="./readme-images/increment-score.png">
 <br>
 <br>
 
@@ -73,13 +73,13 @@ Furthermore, an alert tells the user if they have won, drawn, or lost and increm
 
 There is a footer to ensure good semantic HTML with a nice message about this game.
 
-<img src="./assets/images/footer.png">
+<img src="./readme-images/footer.png">
 
 ### 404-Page Not Found
 
 I have included a 404 error page so that the user can find their way back to the game if their request cannot be found. Clicking the hyperlink "Continue Playing!" will direct them back to the game without the need to click the back button.
 
-<img src="./assets/images/error-page.png">
+<img src="./readme-images/error-page.png">
 
 ### Features Left To Implement
 
@@ -99,18 +99,18 @@ HTML: No errors were returned when passing through the official W3C validator.
 <br>
 
 ### Index HTML Validation
-<img src="./assets/images/html-validator.png">
+<img src="./readme-images/html-validator.png">
 <br>
 <br>
 
 ### Error Page Validation
-<img src="./assets/images/error-page-validator.png">
+<img src="./readme-images/error-page-validator.png">
 <br>
 <br>
 
 CSS: No errors were returned when passing through the official (Jigsaw) validator.
 <br>
-<img src="./assets/images/css-validator.png">
+<img src="./readme-images/css-validator.png">
 <br>
 <br>
 
@@ -119,7 +119,7 @@ JavaScript: No errors were returned when passing through the official JSHint val
 Where it is marked that there is an unused function on line 33 (numbers function), this function is called with an onclick attribute in HTML.
 <hr>
 <br>
-<img src="./assets/images/js-validator.png">
+<img src="./readme-images/js-validator.png">
 <br>
 <br>
 
@@ -129,13 +129,13 @@ Webpage passed through Lighthouse testing for mobile and desktop with near perfe
 
 ### Mobile Results
 <br>
-<img src="./assets/images/mobile.png">
+<img src="./readme-images/mobile.png">
 <br>
 <br>
 
 ### Desktop Results
 <br>
-<img src="./assets/images/desktop.png">
+<img src="./readme-images/desktop.png">
 <br>
 <br>
 
@@ -164,7 +164,7 @@ All functions within my JavaScript file have been tested throughout this project
 <br>
 An example of testing done within PythonTutor to verify correct execution of my random number 'for' loop
 <br>
-<img src="./assets/images/random-number-testing.png">
+<img src="./readme-images/random-number-testing.png">
 <br>
 <br>
 With practice, I look forward to becoming more familiar with testing extensions such as Jasmine so that I can use this tool with confidence in my future milestone projects.
