@@ -115,6 +115,9 @@ CSS: No errors were returned when passing through the official (Jigsaw) validato
 <br>
 
 JavaScript: No errors were returned when passing through the official JSHint validator.
+
+Numbers function is called with an onclick attribute in HTML
+<hr>
 <br>
 <img src="./assets/images/js-validator.png">
 <br>
