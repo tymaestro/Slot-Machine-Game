@@ -103,7 +103,22 @@ JavaScript: No errors were returned when passing through the official JSHint val
 
 ### Google Lighthouse Testing
 
+Webpage passed through Lighthouse testing for mobile and desktop with near perfect scores in Accessibility, SEO, Best Practices and Performance.
+
+### Mobile Results
+<br>
+<img src="./assets/images/mobile.png">
+<br>
+<br>
+
+### Desktop Results
+<br>
+<img src="./assets/images/desktop.png">
+<br>
+<br>
+
 ### Responsivity
+<br>
 
 This game has many responsive features for several different screen sizes.
 
@@ -138,3 +153,5 @@ Time delay function learned from [W3Schools](https://www.w3schools.com/js/js_tim
 ## Acknowledgements
 
 Thank you to my mentor who gave me very helpful feedback and was very encouraging during our mentor sessions.
+
+Also, a big thank you to the Slack community over the course of this entire module.
