@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
 
+/* General body elements */
+
 * {
     border: none;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -18,8 +19,11 @@ section {
     min-height: calc(100vh - 225px);
 }
 
+/* Heading and instructions section */
+
 h2 {
     font-size: 30px;
+    padding: 15px;
 }
 
 p {
@@ -37,11 +41,6 @@ i {
     padding: 8px;
 }
 
-footer {
-    margin: 30px;
-    text-align: center;
-}
-
 .heading {
     text-align: center;
     font-size: 40px;
@@ -57,6 +56,8 @@ span {
     text-align: center;
 }
 
+/* Main game section */
+
 .game-background {
     color: #111418;
     font-family: Open-Sans, sans-serif;
@@ -71,16 +72,6 @@ span {
     border-radius: 10px;
 }
 
-.error-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#error-page {
-    height: 100vh;
-}
-
 .player-div {
     text-align: center;
     padding-top: 55px;
@@ -93,13 +84,12 @@ span {
 
 .num-button {
     color: white;
-    background-color: rgba(2, 2, 2, 0.8);
     font-size: 20px;
     padding: 10px;
     margin: 30px;
-    border: 1px solid black;
-    border-radius: 10px;
 }
+
+/* Generate number section */
 
 .results-section {
     text-align: center;
@@ -118,22 +108,42 @@ span {
     margin: 10px;
 }
 
+/* Score section */
+
 .score-section {
     text-align: center;
     font-size: 20px;
     color: white;
 }
 
-@media screen and (max-width: 914px) {
+/* Footer section */
+
+footer {
+    margin: 30px;
+    text-align: center;
+}
+
+/* 404 error page */
+
+.error-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#error-page {
+    height: 100vh;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 923px) {
 
     .num-button {
         color: white;
-        background-color: rgba(2, 2, 2, 0.8);
         font-size: 20px;
         padding: 5px;
         margin: 5px;
-        border: 1px solid black;
-        border-radius: 10px;
     }
 }
 

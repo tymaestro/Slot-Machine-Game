@@ -1,12 +1,3 @@
-// Variables declaration section
-
-let playerOne = document.getElementById('player1');
-let playerTwo = document.getElementById('player2');
-let playerThree = document.getElementById('player3');
-let computerOne = document.getElementById('computer1');
-let computerTwo = document.getElementById('computer2');
-let computerThree = document.getElementById('computer3');
-
 /**
  * Time delay function for when the player wins so that
  * numbers can generate before alert message is shown
@@ -42,8 +33,17 @@ function draw() {
 function numbers() {
     
     let nums = [];
+    let boxes = document.querySelectorAll('.icon');
+
     for (let i = 0; i < 6; i++) {
         nums[i] = Math.floor(Math.random() * 3) + 1;
+        if (nums[i] === 1) {
+            boxes[i].className = 'icon fas fa-cat';
+        } else if (nums[i] === 2) {
+            boxes[i].className = 'icon fas fa-dog';
+        } else {
+            boxes[i].className = 'icon fas fa-dragon';
+        }
     }
 
     let playerAnswer = nums[0] + nums[1] + nums[2];
@@ -58,39 +58,7 @@ function numbers() {
         computerWin();
         computerScore();
     }
-
-    playerOne.innerText = nums[0];
-	playerTwo.innerText = nums[1];
-	playerThree.innerText = nums[2];
-	computerOne.innerText = nums[3];
-	computerTwo.innerText = nums[4];
-	computerThree.innerText = nums[5];
-
-    // if (playerOne > computerOne) {
-    //     playerOne.classList.add('fa fas-cat');
-    // }
-
-    // let chars = [];
-
-    // for (let i = 0; i < 6; i++) {
-    //     chars[i] = replaceFunctions(nums[i]);
-    // }
-    // console.log(chars);
 }
-
-// function replaceFunctions(num) {
-//     switch (num) {
-//         case 1:
-//             return '<i class="fas fa-cat"></i>';
-//             return '\uf6d3';
-//         case 2:
-//             return '<i class="fas fa-dog"></i>';
-//             return 'uf6be';
-//         case 3:
-//             return '<i class="fas fa-dragon"></i>';
-//             return 'uf6d5';
-//     }
-// }
 
 // Score section
 

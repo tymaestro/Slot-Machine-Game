@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Head section including metadata, title, and links to css stylesheet and favicon paths -->
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,11 +15,19 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
 </head>
 
+<!-- Body section -->
+
 <body>
+
+<!-- Header section -->
+
     <header>
         <h1 class="heading"><img src="assets/favicon/favicon-32x32.png" alt="euro-sign"> In It To Win It! <img
                 src="assets/favicon/favicon-32x32.png" alt="euro-sign"></h1>
     </header>
+
+<!-- Main section -->
+
     <section>
         <div>
             <p>Hello there, welcome to In It To Win It! This game of chance provides an opportunity to pit yourself
@@ -33,21 +43,15 @@
             <div class="game-section">
                 <div class="player-div">
                     <h2>Player</h2>
-                    <button class="num-button"><i class="fas fa-dog" id="player1"></i></button>
-                    <button class="num-button"><i class="fas fa-dragon" id="player2"></i></button>
-                    <button class="num-button"><i class="fas fa-cat" id="player3"></i></button>
-                    <!-- <button class="num-button" id="player1">1</button>
-                    <button class="num-button" id="player2">2</button>
-                    <button class="num-button" id="player3">3</button> -->
+                    <span class="num-button"><i class="icon fas fa-dog" id="player1"></i></span>
+                    <span class="num-button"><i class="icon fas fa-dragon" id="player2"></i></span>
+                    <span class="num-button"><i class="icon fas fa-cat" id="player3"></i></span>
                 </div>
                 <div class="computer-div">
                     <h2>Computer</h2>
-                    <button class="num-button"><i class="fas fa-dog" id="computer1"></i></button>
-                    <button class="num-button"><i class="fas fa-dragon" id="computer2"></i></button>
-                    <button class="num-button"><i class="fas fa-cat" id="computer3"></i></button>
-                    <!-- <button class="num-button" id="computer1">1</button>
-                    <button class="num-button" id="computer2">2</button>
-                    <button class="num-button" id="computer3">3</button> -->
+                    <span class="num-button"><i class="icon fas fa-dog" id="computer1"></i></span>
+                    <span class="num-button"><i class="icon fas fa-dragon" id="computer2"></i></span>
+                    <span class="num-button"><i class="icon fas fa-cat" id="computer3"></i></span>
                 </div>
             </div>
             <div class="results-section">
@@ -61,7 +65,13 @@
             </div>
         </div>
     </section>
+
+<!-- Footer section -->
+
     <footer>This game is for educational purposes</footer>
+
+<!-- JavaScript and FontAwesome scripts -->
+
     <script src="assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
 </body>
