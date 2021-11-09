@@ -164,15 +164,24 @@ This project has been tested on the Google Chrome browser, Safari browser, and t
 
 ## Deployment
 
+The site was deployed to Github Pages through the following steps:
+In the Github repository, select the Main (Master) branch in the settings tab
+<br>
+<br>
+Having selected the Main (Master) branch, the project will be deployed and will be active in the Github Pages section.
+<br>
+<br>
+The live link can be found here - 
+
 ## Credits
 
 Fonts used were Open-Sans and Roboto and were taken from [Google Fonts](https://fonts.google.com/).
 
 Font icons were used throughout the webpage and have been taken from [Font Awesome](https://fontawesome.com/).
 
-Favicon icon for use in the tab bar was taken from [Favicon](https://favicon.io/)
+Favicon icon for use in the tab bar was taken from [Favicon](https://favicon.io/).
 
-Time delay function learned from [W3Schools](https://www.w3schools.com/js/js_timing.asp);
+Time delay function learned from [W3Schools](https://www.w3schools.com/js/js_timing.asp).
 
 ## Acknowledgements
 
