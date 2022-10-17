@@ -1,6 +1,9 @@
 # In It To Win It!
 <br>
 
+The live link can be found here: [Slot Machine Game](https://github.com/tymaestro/Slot-Machine-Game)
+<br>
+
 In It To Win It! is an online player vs computer game that aims to provide some fun and excitement through the element of chance. The player can generate random animal icons that each have a specific value. The aim of the game is to have a combined higher value than the computer. If so, you're a winner!
 <br>
 <br>
@@ -190,7 +193,7 @@ Then, you must select the main branch from underneath the Source heading and mak
 At the point of saving, the repository will be deployed, published and will be shown as active in Github Pages. The repository may take several minutes to be fully published
 <br>
 <br>
-The live link can be found here - https://tymaestro.github.io/lotto-game/
+The live link can be found here: [Slot Machine Game](https://github.com/tymaestro/Slot-Machine-Game)
 
 ## Credits
 
